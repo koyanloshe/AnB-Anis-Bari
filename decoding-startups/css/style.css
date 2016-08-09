@@ -49,7 +49,7 @@ a, a:hover, a:focus, a:active{
 
 #firstbg{
 margin-top: -2%;
-background-image: url('../img/intro-bg.jpg'); 
+background-image: url('../img/intro_bg.jpg');
 background-repeat: repeat; 
 background-size: 50%;
 /*background-repeat: no-repeat;*/
@@ -512,6 +512,15 @@ padding: 8px 40px;
     animation-direction: alternate;
 }
 
+iframe{
+	min-width:100%;
+	min-height:300px;;
+}
+
+#myCarousel{
+	min-height:420px;	
+}
+
 /*animation end*/
 /*mobile adjustment*/
 @media (max-width: 768px){
@@ -627,5 +636,12 @@ h6{
  img{
  	margin:auto;
  }
+ #myCarousel{
+	min-height:550px;	
+}
+.carousel-indicators{
+	bottom:100px;
+}
+
 
 }
